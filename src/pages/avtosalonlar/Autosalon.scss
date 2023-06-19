@@ -1,0 +1,24 @@
+
+.avtosalon{
+    display: flex;
+    gap: 7px;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+    img{
+        width: 170px;
+    }
+    .avtosalonInfo{
+        b{
+            font-size: 20px;  
+        }
+        p{
+            margin-bottom: 7px;
+        }
+    }
+   
+}
+
+
+
+

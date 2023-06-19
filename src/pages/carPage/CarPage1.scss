@@ -1,0 +1,147 @@
+.carHeader{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    .titleDiv{
+        font-size: 27px;
+    }
+    .textAndIcon{
+        display: flex;
+        gap: 30px;
+        .div1{
+            display: flex;
+            gap: 8px;
+            font-size: 17px;
+            .iconHeart{
+                font-size: 23px;
+            }
+        }
+        .div2{
+            display: flex;
+            gap: 8px;
+
+            font-size: 17px;
+            .iconFlag{
+                font-size: 23px;
+            }
+        }
+      
+    }
+}
+
+.mainInfo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    .carInfo{
+        width: 70%;
+        .tables{
+            display: flex;
+            table{
+                width: 50%;
+            }
+        }
+        .aditionInformation{
+            display: flex;
+            flex-wrap: wrap;
+            div{
+                background-color: grey;
+                border-radius: 10px;
+                padding: 10px 5px;
+            }
+        }
+    }
+    .autosalonsInfo{
+        width: 30%;
+        background-color: rgb(242, 242, 242);
+        position: sticky;
+        top: 0;
+        height: 500px;
+        border-radius: 10px;
+        border: rgb(58, 58, 255) 1px solid;
+        .infoBox{
+            width: 90%;
+            margin: 0 auto;
+            h2{
+                font-size: 25px;
+                margin-top: 20px;
+
+            }
+            .barter{
+                margin-top: 30px;
+                margin-bottom: 15px;
+
+                background-color: rgb(255, 255, 255);
+                width: 73px;
+                height: 28px;
+                font-size: 17px;
+                border-radius: 5px;
+                border: none;
+                display: flex;
+                align-items: center;
+                .iconBarter{
+                    width: 20px;
+                    color: rgb(141, 208, 41);
+                }
+            }
+            .salonDiv{
+                margin-top: 15px;
+                margin-bottom: 15px;
+
+                display: flex;
+
+                img{
+                    width: 60px;
+                    border-radius: 10px;
+                }
+                p{
+                    padding-top: 20px;
+                    padding-left: 10px;
+
+                }
+            }
+            .buttonNumber{
+                margin-bottom: 15px;
+                
+                background-color: rgb(72, 177, 72);
+                width: 280px;
+                height: 80px;
+                border-radius: 10px;
+                border: none;
+                div{
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 10px;
+                    .iconNumber{
+                        font-size: 24px;
+                        padding-top: 1px;
+                        color: white;
+                    }
+                    p{
+                        color: white;
+                        font-size: 20px;
+
+                    }
+                }
+                .textP{
+                    font-size: 16px;
+                    color: white;
+
+                }
+            }
+            .reklamDiv{
+                margin-top: 15px;
+
+            .addReklam{
+                color: grey;
+                padding-top: 20px;
+            }                
+            }
+        }
+    }
+}

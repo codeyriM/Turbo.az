@@ -1,0 +1,11 @@
+.links {
+  display: flex;
+  gap: 50px;
+  width: 700px;
+  height: 70px;
+  font-size: 20px;
+}
+
+div {
+  color: black;
+}/*# sourceMappingURL=Layout.css.map */

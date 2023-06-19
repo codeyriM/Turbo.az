@@ -1,0 +1,18 @@
+.home{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(223, 223, 223);
+    
+    div{
+        width: 100%;
+        max-width: 1024px;
+        
+    }
+    img{
+         width: 200px;  
+         display: none;
+         @media(min-width: 720px){
+            display: block;
+         }
+    }
+}

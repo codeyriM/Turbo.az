@@ -1,0 +1,22 @@
+.cars{
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    grid-gap: 20px;
+    margin-top: 30px;
+ 
+    .car{
+        background-color: rgb(255, 255, 255);
+        height: 280px;
+        border-radius: 10px;
+        img{
+            width: 230px;
+        }
+        .price{
+            font-size: 21px;
+        }
+        .sameFont{
+            font-size: 18px;
+        }
+       
+    }
+}

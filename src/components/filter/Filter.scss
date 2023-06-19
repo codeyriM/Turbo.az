@@ -1,0 +1,23 @@
+.filter{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+select {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+input{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.newOptions{
+    display: flex;
+    border: 1px solid grey;
+    width: 200px;
+}
